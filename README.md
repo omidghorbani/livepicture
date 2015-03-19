@@ -80,5 +80,5 @@ This will initialize plugin, but you need add some pictures! You have two way to
 
 # Demo
 <a href="http://lionscrayons.com/livepicture/example_3.html" target="_blank">Demo 1</a>
-<br><a href="http://lionscrayons.com/livepicture/example_2.html" target="_blank">Demo 1</a>
-<br><a href="http://lionscrayons.com/livepicture/example_1.html" target="_blank">Demo 1</a>
+<br><a href="http://lionscrayons.com/livepicture/example_2.html" target="_blank">Demo 2</a>
+<br><a href="http://lionscrayons.com/livepicture/example_1.html" target="_blank">Demo 3</a>
