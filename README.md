@@ -54,6 +54,8 @@ This will initialize plugin, but you need add some pictures! You have two way to
 </script>
 ```
 <a href="http://lionscrayons.com/livepicture/gh_ex1.html" target="_blank">This code demo</a>
+<br>
+<a href="http://codepen.io/levpasha/pen/myaRLY" target="_blank">This code demo on codepen</a>
 
 <br>2) Add it by js (using add_layer function):
 
@@ -77,6 +79,8 @@ This will initialize plugin, but you need add some pictures! You have two way to
 </script>
 ```
 <a href="http://lionscrayons.com/livepicture/gh_ex2.html" target="_blank">This code demo</a>
+<br>
+<a href="http://codepen.io/levpasha/pen/dPwNKw" target="_blank">This code demo on codepen</a>
 
 # Demo
 <a href="http://lionscrayons.com/livepicture/example_3.html" target="_blank">Demo 1</a>
