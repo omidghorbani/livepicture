@@ -1,0 +1,18 @@
+<head>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/jquery.livepicture.js"></script>
+  <style>body{margin: 0px;}</style>
+</head>
+<body>
+  <div id="slider"></div>
+</body>
+<script> 
+  var slider=$("#slider").Livepicture({height: '100%', width: '100%'}); //call plugin
+
+  slider.Livepicture('add_layer', {
+    'name' : 'google',
+    'bg_img' : 'https://www.google.ru/images/srpr/logo11w.png',
+    'x_move' : '-1',
+    'y_move' : '1'
+  });
+</script>

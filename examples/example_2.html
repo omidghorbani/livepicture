@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.livepicture.js"></script>
+    <style>
+    body{margin: 0px;}
+    </style>
+  </head>
+  <body>
+    <div id="slider">
+    
+      <div x_move="0.5" l_zoom="0.8">
+        <img src="http://gotowall.com/wallpapers/[gotowall.com]20120902_095043_1323.jpg" style="display:none" />
+      </div> 
+      
+      <div x_move="0.05" l_zoom="0.5" l_top="3" l_left="10">
+        <img src="https://img-fotki.yandex.ru/get/5704/66124276.90/0_76432_f9f580e_L.png" style="display:none" />
+      </div> 
+
+    </div>
+  </body>
+  <script>
+    $(window).load(function(){ //wait for all img load
+      var slider=$("#slider").Livepicture({height: '100%', width: '100%'}); //call plugin
+
+      slider.Livepicture('add_layer', {
+        'name' : 'chuhelo',
+        'bg_img' : 'http://domapom.ru/images/stories/soveti_domahnego_mastera/pugalo/pugalo7.png',
+        'x_move' : '-0.025',
+        'l_zoom' : '1',
+        'l_top' : '40',
+        'l_left' : '80'
+      });
+
+      slider.Livepicture('add_layer', {
+        'name' : 'birds',
+        'bg_img' : 'http://fc06.deviantart.net/fs70/i/2014/022/5/3/flock__o_birds_precut_png_by_fictionchick-d73at2l.png',
+        'x_move' : '-0.1',
+        'y_move' : '0.1',
+        'l_zoom' : '0.7',
+        'l_top' : '40',
+        'l_left' : '80'
+      });
+          
+      slider.Livepicture('add_layer', {
+        'name' : 'lebedi',
+        'bg_img' : 'https://img-fotki.yandex.ru/get/5011/63130515.18/0_5f44b_342a8667_L.jpg',
+        'x_move' : '0.1',
+        'y_move' : '0.1',
+        'l_zoom' : '0.8',
+        'l_top' : '90',
+        'l_left' : '15'
+      });
+      
+      slider.Livepicture('add_layer', {
+        'name' : 'zabor',
+        'bg_img' : 'http://foto-ramki.com/predmet/predmet9.png',
+        'x_move' : '-0.2',
+        'l_zoom' : '0.15',
+        'l_top' : '103',
+        'bg_repeat' : 'repeat-x'
+      });
+
+    });
+  </script>
+</html>

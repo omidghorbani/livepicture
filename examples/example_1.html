@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.livepicture.js"></script>
+    <style>
+    body{margin: 0px;}
+    </style>
+  </head>
+  <body>
+    <div id="slider">
+      <div x_move="0.5" l_zoom="1.1">
+        <img src="http://startupphenomenon.com/2013/wp-content/uploads/2013/09/city_by_the_bay_1232.jpg" style="display:none" />
+      </div> 
+      <div x_move="-0.02" l_zoom="0.3" l_top="5" l_left="10">
+        <img src="http://www.clker.com/cliparts/F/8/D/c/4/1/sun-icon-md.png" style="display:none" />
+      </div>
+      <div x_move="-1.2" l_zoom="0.25" l_top="85" l_left="50" y_move="-0.1">
+        <img src="http://fc02.deviantart.net/fs70/f/2012/132/6/0/colonial_ship_png_by_lg_design-d4zfqr5.png" style="display:none" />
+      </div>
+      <div x_move="1.2" l_zoom="0.35" l_top="95" l_left="50" y_move="0.1">
+        <img src="http://fc02.deviantart.net/fs70/f/2012/132/6/0/colonial_ship_png_by_lg_design-d4zfqr5.png" style="display:none" />
+      </div>
+      <div x_move="-0.2" y_move="0.5" bg_repeat="repeat">
+        <img src="http://fc09.deviantart.net/fs71/f/2012/250/f/f/stock___snow_png_lavender_by_jassy2012-d5duocn.png" style="display:none" />
+      </div>
+      <div x_move="0.03" l_zoom="0.6" l_top="102" bg_repeat="repeat-x">
+        <img src="http://www.plantationfence.com/images/to_use/charleston_lg.png" style="display:none" />
+      </div>
+    </div>
+  </body>
+  <script>
+    $(window).load(function(){ //wait for all img load
+      $("#slider").Livepicture({height: '100%', width: '100%'}); //call plugin
+    });
+  </script>
+</html>

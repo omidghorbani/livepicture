@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.livepicture.js"></script>
+    <style>
+    body{margin: 0px;}
+    </style>
+  </head>
+  <body>
+    <div id="slider">
+    </div>
+  </body>
+  <script>
+      var slider=$("#slider").Livepicture({height: '100%', width: '100%'}); //call plugin
+
+      slider.Livepicture('add_layer', {
+        'name' : 'bg',
+        'bg_img' : '/upload/paralax/1.jpg',
+        'x_move' : '0.1',
+        'l_zoom' : '0.9'
+      });
+
+      slider.Livepicture('add_layer', {
+        'name' : 'quad',
+        'bg_img' : '/upload/paralax/2.png',
+        'x_move' : '1',
+        'y_move' : '-0.2',
+        'l_zoom' : '0.8',
+        'l_top' : '50',
+        'l_left' : '100'
+      });
+          
+  </script>
+</html>
