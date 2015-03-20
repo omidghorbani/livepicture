@@ -91,11 +91,11 @@ var defaults = {
 	l_zoom: 1, // 0 to infinity, unit of measure - number                //background-size attribute 
 	l_left: 50, // -infinity to infinity, unit of measure - %            //background-position x
 	l_top: 50, // -infinity to infinity, unit of measure - %             //background-position y
-	z_index: 100, // 0 to infinity, unit of measure - number 	     //z-index
+	z_index: 100, // 0 to infinity, unit of measure - number 	         //z-index
 	x_move: 1, // -infinity to infinity, unit of measure - number	     //power of x move
 	y_move: 0, // -infinity to infinity, unit of measure - number        //power of y move
-	height: 100, // 0 to infinity, unit of measure - %		     //do nothing
-	width: 100 // 0 to infinity, unit of measure - %		     //do nothing
+	height: 100, // 0 to infinity, unit of measure - %		             //do nothing
+	width: 100 // 0 to infinity, unit of measure - %		             //do nothing
 };
 ```
 
