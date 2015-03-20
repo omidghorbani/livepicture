@@ -102,7 +102,7 @@ var defaults = {
 You can chage default setting in html or js:<br>
 ```html
 ...
-<div bg_color="red" bg_repeat="repeat" l_zoom="20" l_left="-5" l_top="10%" z_index="50" x_move="10" y_move="200" height="50" width="200">
+<div bg_color="transparent" bg_repeat="repeat" l_zoom="1" l_left="-5" l_top="10" z_index="50" x_move="-1" y_move="-1" height="50" width="50">
   <img src="https://www.google.ru/images/srpr/logo11w.png" style="display:none" />
 </div> 
 ...
@@ -111,16 +111,16 @@ You can chage default setting in html or js:<br>
 ```js
 ...
 slider.Livepicture('add_layer', {
-	'bg_color': 'red',
+	'bg_color': 'transparent',
 	'bg_repeat': 'repeat',
-	'l_zoom': 20,
+	'l_zoom': 1,
 	'l_left': -5,
-	'l_top': 10%,
+	'l_top': 10,
 	'z_index': 50,
-	'x_move': 10,
-	'y_move': 200,
+	'x_move': -1,
+	'y_move': -1,
 	'height': 50,
-	'width': 200,
+	'width': 50,
 	'bg_img' : 'https://www.google.ru/images/srpr/logo11w.png',
 });
 ...
