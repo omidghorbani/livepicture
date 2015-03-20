@@ -82,6 +82,51 @@ This will initialize plugin, but you need add some pictures! You have two way to
 <br>
 <a href="http://codepen.io/levpasha/pen/dPwNKw" target="_blank">This code demo on codepen</a>
 
+# Setting (default):
+
+```js
+var defaults = {
+	bg_color: 'transparent', // any type of color
+	bg_repeat: 'no-repeat', //no-repeat | repeat | repeat-x | repeat-y
+	l_zoom: 1, // 0 to infinity, unit of measure - number
+	l_left: 50, // -infinity to infinity, unit of measure - %
+	l_top: 50, // -infinity to infinity, unit of measure - %
+	z_index: 100,
+	x_move: 1, // -infinity to infinity, unit of measure - number
+	y_move: 0, // -infinity to infinity, unit of measure - number
+	height: 100, // 0 to infinity, unit of measure - %
+	width: 100 // 0 to infinity, unit of measure - %
+};
+```
+
+You can chage default setting in html or js:<br>
+```html
+...
+<div bg_color="red" bg_repeat="repeat" l_zoom="20" l_left="-5" l_top="10%" z_index="50" x_move="10" y_move="200" height="50" width="200">
+  <img src="https://www.google.ru/images/srpr/logo11w.png" style="display:none" />
+</div> 
+...
+```
+
+```js
+...
+slider.Livepicture('add_layer', {
+	'bg_color': 'red',
+	'bg_repeat': 'repeat',
+	'l_zoom': 20,
+	'l_left': -5,
+	'l_top': 10%,
+	'z_index': 50,
+	'x_move': 10,
+	'y_move': 200,
+	'height': 50,
+	'width': 200,
+	'bg_img' : 'https://www.google.ru/images/srpr/logo11w.png',
+});
+...
+```
+
+
 # Demo
 <a href="http://lionscrayons.com/livepicture/example_3.html" target="_blank">Demo 1</a>
 <br>
